@@ -80,7 +80,7 @@ END
 # nano /etc/rc.local
 cat > /etc/rc.local <<-END
 #!/bin/sh -e
-rc.local
+# rc.local
 # By default this script does nothing.
 exit 0
 END
@@ -212,10 +212,10 @@ Default options for sslh initscript
 sourced by /etc/init.d/sslh
 
 # Disabled by default, to force yourself
-to read the configuration:
-- /usr/share/doc/sslh/README.Debian (quick start)
-- /usr/share/doc/sslh/README, at "Configuration" section
-- sslh(8) via "man sslh" for more configuration details.
+# to read the configuration:
+# - /usr/share/doc/sslh/README.Debian (quick start)
+# - /usr/share/doc/sslh/README, at "Configuration" section
+# - sslh(8) via "man sslh" for more configuration details.
 Once configuration ready, you *must* set RUN to yes here
 and try to start sslh (standalone mode only)
 
